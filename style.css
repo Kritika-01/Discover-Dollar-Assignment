@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: #a8e1ed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+    
+}
+.logo img{
+    /* border: 3px solid black; */
+    height: 40px;
+}
+.search{
+    background: white;
+    border-radius: 2px;
+    padding: 8px;
+    width: 500px;
+    height: 25px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    color: #0E7AB8;
+    box-shadow: 1px 1px 3px slategray;
+}
+.search i{
+    /* margin-right: 5xpx; */
+    display: flex;
+    align-items: center;
+}
+.search input{
+    /* margin: 0; */
+    /* padding: 5px 0px; */
+    padding-left: 5 px;
+    width: 475px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    /* height: 30px; */
+}
+.loginbtn{
+    background-color: #0E7AB8;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    /* border: 2px solid #0E7AB8; */
+    border: none;
+    border-radius: 2px;
+    padding: 8px 20px;
+    margin: 0px 30px;
+    cursor: pointer;
+}
+.joinPrime{
+    /* margin: 0px 15px; */
+    padding:5px;
+    color: #0E7AB8;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 2px;  
+}
+.cart{
+    margin: 0px 30px;
+    text-decoration: none;
+    color: #0E7AB8;
+    font-weight: bold;
+    font-size: 18px;
+}
+.cart i{
+    margin-right: 5px;
+}
+.loginHover{
+    
+    position: absolute;
+    top: 50px;
+    margin-left: -60px;
+    width: 200px;
+    height: 300px;
+    /* border: 2px solid black; */
+    box-shadow: 1px 1px 2px slategray,-1px 1px 5px slategray;
+    background-color: white;
+    padding: 10px;
+    color: black;
+    margin-top: 15px;
+    /* display: flex; */
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    display: none;
+    /* padding: 0px 5px; */
+}
+.triangeleUp{
+    position: relative;
+    top: -27px;
+    height: 0px;
+    width: 0px;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 18px solid white;
+
+}
+.L1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    /* padding-bottom: 20px; */
+    /* border-bottom: 1px solid grey; */
+}
+.L1 a{
+    color: #0E7AB8;
+    text-decoration: none;
+}
+.L1 a:hover{
+    text-decoration:underline;
+}
+.loginMenu{
+    width: 200px;
+    margin-top: 25px;
+    font-weight: lighter;
+}
+.menuList{
+    display: flex;
+    padding: 10px;
+}
+.menuList p{
+    padding-left: 20px;
+}
+.menuList i{
+    color: #0E7AB8;
+}
+.loginbtn:hover .loginHover{
+    display: flex;
+    cursor: pointer;
+}
+.productNavbar{
+    /* background-color: yellow; */
+    padding: 15px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item-navbar{
+    /* border: 2px solid black; */
+    /* width: 130px; */
+    margin-right: 20px;
+    cursor: pointer;
+}
+.item-navbar img{
+    
+    height: 80px;
+    /* width: 80px; */
+    padding: 0px 20px;
+    
+}
+.item-navbar p{
+    /* width: 130px; */
+    text-align: center;
+}
+.item-navbar:hover{
+    color: #0E7AB8;
+}
+.sub-menu1{
+    
+    position: absolute;
+    /* top: 50px; */
+    margin-left: -40px;
+    width: 180px;
+    height: 130px;
+    /* border: 2px solid black; */
+    box-shadow: 1px 1px 10px slategray,-1px 1px 2px slategray;
+    background-color: white;
+    padding: 5px;
+    color: black;
+    margin-top: 15px;
+    /* display: flex; */
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    display: none;
+    /* padding: 0px 5px; */
+    
+    z-index: 10;
+}
+.item-navbar:hover .sub-menu1{
+    display: block;
+    /* position: absolute; */
+}
+.sub-triangeleUp1{
+    position: relative;
+    left: 78px;
+    top: -20px;
+    height: 0px;
+    width: 0px;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 18px solid white;
+    
+
+}
+.supersub-menu1{
+    width: 180px;
+    margin-top: -15px;
+    font-weight: lighter;
+    z-index: 5;
+}
+.list-1{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+.list-1 i{
+    color: white;
+    display: none;
+    /* visibility: hidden; */
+}
+.list-1:hover{
+    background: #a8e1ed;
+}
+.list-1:hover i{
+    display: flex;
+    /* visibility: visible; */
+}
+.sub-men{
+    
+    position: absolute;
+    top: -15px;
+    margin-left: 176px;
+    width: 180px;
+    height: 120px;
+    font-weight: lighter;
+    /* border: 2px solid black; */
+    box-shadow: 1px 1px 10px slategray,-1px 1px 2px slategray;
+    background-color: white;
+    padding: 10px;
+    color: black;
+    margin-top: 15px;
+    /* display: flex; */
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    display: none;
+    /* padding: 0px 5px; */
+    z-index: -1;
+}
+#men:hover .sub-men{
+    display: block;
+    /* position: absolute; */
+}
+
+.sub-women{
+    
+    position: absolute;
+    top: -15px;
+    margin-left: 176px;
+    width: 180px;
+    height: 120px;
+    font-weight: lighter;
+    /* border: 2px solid black; */
+    box-shadow: 1px 1px 10px slategray,-1px 1px 2px slategray;
+    background-color: white;
+    padding: 10px;
+    color: black;
+    margin-top: 15px;
+    /* display: flex; */
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    display: none;
+    /* padding: 0px 5px; */
+    z-index: -1;
+}
+#women:hover .sub-women{
+    display: block;
+    /* position: absolute; */
+}
+
+.game{
+    height: 230px;
+}
+.camera{
+    height: 200px;
+}
+.electronics{
+    height: 160px;
+}
+.wearables{
+    height: 150px;
+}
+.sub-gaming{
+    
+    position: absolute;
+    top: -15px;
+    margin-left: 176px;
+    width: 180px;
+    height: 190px;
+    font-weight: lighter;
+    /* border: 2px solid black; */
+    box-shadow: 1px 1px 10px slategray,-1px 1px 2px slategray;
+    background-color: white;
+    padding: 10px;
+    color: black;
+    margin-top: 15px;
+    /* display: flex; */
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    display: none;
+    /* padding: 0px 5px; */
+    z-index: -1;
+}
+#gaming:hover .sub-gaming{
+    display: block;
+    /* position: absolute; */
+}
